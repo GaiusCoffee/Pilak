@@ -1,0 +1,34 @@
+title: Pilak Shared Universe
+author: Erik Gaius Capistrano
+description: >-
+  Pilak Shared Universe is a collection of media (Mobile Game, Web Serial, and the like) that all takes place in the same universe, obeying the same physical rules and magic systems.
+baseurl: "/pilak"
+url: "https://gaius.coffee"
+keybase_username: gaius
+google_analytics: UA-NNNNNNNN-N
+disqus:
+  shortname: my_disqus_shortname
+social:
+  name: Erik Gaius Capistrano
+  links:
+    - https://gaius.coffee
+    - https://www.facebook.com/GaiusCoffee
+    - https://www.twitter.com/GaiusCoffee
+    - https://www.github.com/GaiusCoffee
+    - https://keybase.io/gaius
+# Build settings
+markdown: kramdown
+timezone: Asia/Manila
+permalink: /:categories/:title/
+theme: minima
+header_pages:
+  - contents.md
+  - all-posts.md
+keep_files:
+  - game
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,30 @@
+{
+    "version": "0.1.0",
+    "tasks":[
+      {
+        "taskName": "android",
+        "command":"cordova",
+        "args":["build", "android","--","--gradleArg=-PcdvMinSdkVersion=23"],
+        "isShellCommand": true,
+        "showOutput": "always",
+        "isBackground": true
+      },
+      {
+        "taskName": "build",
+        "command":"build.bat",
+        "args":[],
+        "isShellCommand": true,
+        "showOutput": "always",
+        "isBackground": true,
+        "isBuildCommand": true
+      },
+      {
+        "taskName": "serve",
+        "command":"http-server",
+        "args":[".\\docs"],
+        "isShellCommand": true,
+        "showOutput": "always",
+        "isBackground": true
+      }
+    ]
+}

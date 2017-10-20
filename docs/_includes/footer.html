@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  
+    <div class="wrapper">
+  
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+  
+      <div class="footer-col-wrapper">
+        <div class="footer-col footer-col-1">
+          <ul class="contact-list">
+            <li>
+              {% if site.author %}
+                {{ site.author | escape }}
+              {% else %}
+                {{ site.title | escape }}
+              {% endif %}
+            </li>
+            <li>
+              {% if site.keybase_username %}
+                {% include icon-keybase.html username=site.keybase_username %}
+              {% endif %}
+            </li>
+          </ul>
+        </div>
+  
+        <div class="footer-col" style="width: calc(65% - (30px / 2));">
+          <p>{{ site.description | escape }}</p>
+        </div>
+      </div>
+  
+    </div>
+  
+  </footer>
+  
