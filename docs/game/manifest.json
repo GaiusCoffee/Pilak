@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Pilak Shared Universe",
+  "short_name": "Pilak Shared Universe",
+  "version": "coffee.gaius.pilak",
+  "author": "GaiusCoffee",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}
